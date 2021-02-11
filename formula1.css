@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 20% 20px 1fr 1fr 20px 20%;
+    grid-template-rows: 100px  1fr;
+}
+.rectangle1{
+    
+    width: 39px;
+    height:5065px;
+    background-color: #C4C4C4;
+    grid-column:2/3;
+}
+
+.rectangle2{
+width:200px;
+height:5065px;
+background-color: #C4C4C4;
+border-left: 5px solid white;
+grid-column:3/4;
+}
+
+.rectangle3{
+    width:200px;
+    height:5065px;
+    background-color: #C4C4C4;
+    border-right: 5px solid white;
+    border-left: 5px dashed white;
+    grid-column:4/5;
+    }
+
+.rectangle4{
+    width: 20px;
+    height:5065px;
+    background-color: #C4C4C4;
+    grid-column:5/6;
+}
+
+.ferrari_f1{
+    grid-row: 2/3;
+    grid-column:3/5;
+    z-index: 1;
+    justify-self:center;
+    
+}
+

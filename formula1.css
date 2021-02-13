@@ -1,13 +1,13 @@
 body{
     height: 100vh;
-    display:flex;
-    justify-content: center;
+    /* display:flex;
+    justify-content: center; */
 }
 
 .container{
     height: 100vh;
     display:grid;
-    grid-template-columns: 20% 20px 1fr 1fr 20px 20%;
+    grid-template-columns: 20% 20px 0.2fr 0.2fr 20px 20%;
     grid-template-rows: 100px  1fr;
 }
 .rectangle1{
@@ -42,7 +42,7 @@ grid-column:3/4;
     grid-column:5/6;
 }
 
-.ferrari_f1{
+.ferrari{
     grid-row: 2/3;
     grid-column:3/5;
     z-index: 1;

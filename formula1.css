@@ -1,17 +1,16 @@
 body{
     height: 100vh;
-    /* display:flex;
-    justify-content: center; */
 }
+
+/* Usamos Grid para posicionar los elementos */
 
 .container{
     height: 100vh;
     display:grid;
-    grid-template-columns: 20% 20px 0.2fr 0.2fr 20px 20%;
+    grid-template-columns: 35% 20px 0.2fr 0.2fr auto 20%;
     grid-template-rows: 100px  1fr;
 }
-.rectangle1{
-    
+.rectangle1{ 
     width: 39px;
     height:5065px;
     background-color: #C4C4C4;
@@ -19,7 +18,7 @@ body{
 }
 
 .rectangle2{
-width:200px;
+width:210px;
 height:5065px;
 background-color: #C4C4C4;
 border-left: 5px solid white;
@@ -40,6 +39,7 @@ grid-column:3/4;
     height:5065px;
     background-color: #C4C4C4;
     grid-column:5/6;
+    padding: 0;
 }
 
 .ferrari{
